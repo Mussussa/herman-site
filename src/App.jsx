@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import Navbar from './componentes/Navbar'
+import Hero from './componentes/Hero'
 import './App.css'
 
 function App() {
@@ -6,8 +8,10 @@ function App() {
 
   return (
     <>
-  <h1>olá mundo realy
-  </h1>
+    <Navbar/>
+
+    <Hero/>
+
     </>
   )
 }
